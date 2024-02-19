@@ -1,5 +1,5 @@
 export const Sidebar = () => {
-  const sidebarName: [{ id: number; name: string }] = [
+  const sidebarName: { id: number; name: string }[] = [
     {
       id: 1,
       name: "Business Information",
